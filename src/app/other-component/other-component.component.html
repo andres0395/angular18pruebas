@@ -1,0 +1,6 @@
+<input readonly type="checkbox" [checked]="checked()" >
+<button (click)="toggle()">toggle</button>
+<input type="text" [(ngModel)]="data">
+<p>
+  {{todos() | json}}
+</p>
